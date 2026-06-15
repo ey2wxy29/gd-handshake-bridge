@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Build Mod
-        uses: geode-sdk/build-geode-mod@main
+        uses: geode-sdk/build-geode-mod@v3
         with:
           bindings: geode-sdk/bindings
           target: ${{ matrix.config.target }}
